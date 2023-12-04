@@ -1,0 +1,100 @@
+.contents_wrap {
+  width: 1700px;
+  height: 450px;
+  background-color: #EDC5AB;
+
+}
+
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* 카드 전체를 감싸는 박스 */
+
+.contents_box {
+  width: 100%;
+  display: flex;
+
+
+}
+
+
+/* 드래그 방지 */
+body {
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none
+}
+
+
+
+/* 카드 감싸는 부분 */
+
+.contents_card {
+  width: 270px;
+  height: 400px;
+  background-color: #F9F7F7;
+  border-radius: 20px;
+  padding: 10px;
+
+  margin-left: 20px;
+  margin-top: 15px;
+
+  position: relative;
+
+}
+
+/* 카드 이미지 */
+.contents_card-image {
+  width: 260px;
+  height: 180px;
+  margin: 0 auto;
+  border-radius: inherit;
+
+  background-color: #DBE2EF;
+
+}
+
+/* 카드 카테고리 */
+
+.contents_card-category {
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  margin: 10px 10px 10px 7px;
+
+  border-radius: inherit;
+
+  background-color: #48cae4;
+}
+
+/* 카드 제목 */
+
+.contents_card-title {
+  margin: 7px;
+}
+
+/* 카드 설명 */
+.contents_card-ex {
+  display: block;
+  margin: 7px;
+}
+/* 카드 플레이 버튼 */
+.contents_card-play {
+  width: 270px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+
+  top: 60px;
+
+  color: white;
+
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: inherit;
+}

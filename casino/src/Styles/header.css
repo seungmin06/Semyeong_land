@@ -1,0 +1,41 @@
+/* --------------- header --------------- */
+.Header_wrap {
+  width: 1700px;
+  max-width: 1920px;
+  height: 45px;
+  opacity: 0.6;
+  position: absolute;
+  z-index: 1;
+}
+
+.Header_wrap a {
+  display: block;
+  padding: 15px;
+  font-size: 15px;
+}
+
+/* --------------- nav --------------- */
+.nav {
+  float: left;
+}
+
+.nav_li {
+  float: left;
+}
+
+.nav_li a:hover {
+  background-color: #3F72AF;
+}
+
+/* --------------- login --------------- */
+.login {
+  background-color: red;
+}
+
+.login_li {
+  float: right;
+}
+
+.login a:hover {
+  background-color: #3F72AF;
+}

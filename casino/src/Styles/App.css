@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "NPSfontBold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/NPSfontBold.woff2")
+    format("woff2");
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+  font-family: 'NPSfontBold';
+}
+
+
+.App {
+  width: 100vw;
+  max-width: 1700px;
+  height: 100vh;
+  max-height: 1080px;
+  margin: 0 auto;
+}
+
+#root {
+  background-color: #EDC5AB;
+
+}

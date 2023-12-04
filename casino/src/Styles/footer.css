@@ -1,0 +1,29 @@
+.Footer_wrap {
+  background: #03045e;
+  width: 1700px;
+  height: 50px;
+  max-height: 50px;
+  opacity: 0.6;
+  z-index: 1;
+}
+
+.footer_footer a{
+  display: block;
+  padding: 15px;
+  font-size: 20px;
+  color: white;
+  transition: .3s;
+}
+
+.footer {
+  float: left;
+}
+
+.footer_li {
+  float: left;
+}
+
+.footer_li a:hover {
+  background-color: beige;
+  color: black;
+}
